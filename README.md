@@ -15,6 +15,8 @@ La compañía de juguetes Kabushiki-gaisha Ltd está desarrollando un nuevo sist
 - Debe haber una tecla diferente para frenar, y al menos una tecla para cambiar velocidades.
 - Se debe indicar en cada unidad de tiempo la posición del jugador y los contrincantes en la pista, así como el estado de la bicicleta del jugador (velocidad, rapidez, cadencia).
 
+![fig. 1](https://imgur.com/fXN1xQy)
+
 - Pueden pasar varios instantes de tiempo antes de que el jugador avance al siguiente caracter en el indicador de posición (es decir, se admite que la posición no sea un valor entero).
 
 
@@ -24,6 +26,8 @@ La compañía de juguetes Kabushiki-gaisha Ltd está desarrollando un nuevo sist
 - La velocidad de la bicicleta se calcula a partir del promedio de los pedaleos de ambos jugadores. 
 - El juego debe revisar en cada instante de tiempo la diferencia entre ambas cadencias y, si divergen en menos de 10% durante más de la mitad de los instantes de tiempo que dura el juego, felicitar a los jugadores por su
 sincronización.
+
+![fig. 2](https://imgur.com/3Ur6jKU)
 
 
 ## 3 Estructuras de datos requerida
